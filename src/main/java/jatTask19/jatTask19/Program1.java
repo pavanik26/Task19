@@ -1,12 +1,11 @@
 package jatTask19.jatTask19;
 
-import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -20,7 +19,7 @@ public class Program1 {
 	       
 	       // Initialize ChromeDriver with options
 	       WebDriver driver = new ChromeDriver();
-	       WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(4));
+	       
            driver.get("https://www.guvi.in/register");
            
            // Maximize the window
